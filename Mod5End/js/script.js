@@ -1,11 +1,3 @@
-/*
- * Course_name: HTML, CSS, and Javascript for Web Developers
- * Section: Coursera @ Johns Hopkins University
- * Name: Fedorov Igor
- * Date: April 6, 2016
- * Assignment: Module 4 Coding Assignment
- */
- 
 $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 
   // Same as document.querySelector("#navbarToggle").addEventListener("blur",...
@@ -23,11 +15,11 @@ var dc = {};
 
 var homeHtmlUrl = "snippets/home-snippet.html";
 var allCategoriesUrl = 
-  "http://davids-restaurant.herokuapp.com/categories.json";
+  "https://davids-restaurant.herokuapp.com/categories.json";
 var categoriesTitleHtml = "snippets/categories-title-snippet.html";
 var categoryHtml = "snippets/category-snippet.html";
 var menuItemsUrl = 
-  "http://davids-restaurant.herokuapp.com/menu_items.json?category=";
+  "https://davids-restaurant.herokuapp.com/menu_items.json?category=";
 var menuItemsTitleHtml = "snippets/menu-items-title.html";
 var menuItemHtml = "snippets/menu-item.html";
 
